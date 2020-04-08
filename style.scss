@@ -1,0 +1,20 @@
+.chatInput__block {
+    display: flex;
+    place-items: center;
+    border-color: transparent;
+    background-color:transparent;
+    color:#2a477f;
+    box-sizing:border-box;
+    min-width:24px;
+    height:24px;
+    padding:4px;
+    margin-right:8px;
+    border-radius:2px;
+    font-size: 0.8rem;
+    cursor:pointer;
+
+    &:hover {
+        background-color: rgba(204, 223, 245, 0.5);
+        border-color: transparent;
+    }
+}

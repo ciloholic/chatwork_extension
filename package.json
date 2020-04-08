@@ -1,0 +1,13 @@
+{
+  "name": "chatwork_extension",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build index.js --no-source-maps"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.3.2",
+    "sass": "^1.26.3"
+  }
+}
